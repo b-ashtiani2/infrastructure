@@ -1,15 +1,10 @@
-variable "region" {
-  description = "AWS region"
-  default     = "us-west-1"
+variable "word-count" {
+  type = number
+  description = "number of words"https://github.com/b-ashtiani2/infrastructure/blob/master/variables.tf
 }
 
-variable "instance_type" {
-  description = "Type of EC2 instance to provision"
-  default     = "t2.micro"
+variable "word-length" {
+  type = number
+  default = 10
+  description = "length of random string which i called a word"
 }
-
-variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
-}
-
