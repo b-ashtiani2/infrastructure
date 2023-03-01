@@ -1,6 +1,6 @@
 variable "word-count" {
   type = number
-  description = "number of words"https://github.com/b-ashtiani2/infrastructure/blob/master/variables.tf
+  description = "number of words"
 }
 
 variable "word-length" {
