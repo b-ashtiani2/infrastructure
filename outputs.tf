@@ -1,8 +1,4 @@
-output "instance_ami" {
-  value = aws_instance.ubuntu.ami
-}
-
-output "instance_arn" {
-  value = aws_instance.ubuntu.arn
+output "p" {
+  value = "${random_pet.pet.id} && ${random_string.random_word.id} && ${random_string.random_word_2.id}"
 }
 
